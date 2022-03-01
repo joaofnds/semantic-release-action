@@ -1,7 +1,7 @@
 ## Usage example
 
 will install [semantic-release](https://github.com/semantic-release/semantic-release) and
-the aditional specified plugins, clone your repo do source your releaserc and run `semantic-release`
+the aditional specified plugins, clone your repo and run `npx semantic-release`
 
 ```yaml
 on: [push]
