@@ -16,12 +16,10 @@ runs:
       with:
         node-version: "16"
 
+    - uses: actions/checkout@v2
+
     - run: "npm i -g semantic-release@${{ inputs.version }} ${{ inputs.plugins }}"
       shell: bash
-
-    - uses: actions/checkout@v2
-      with:
-        persist-credentials: false
 
     - run: "npx semantic-release"
       shell: bash
