@@ -17,6 +17,8 @@ runs:
         node-version: "16"
 
     - uses: actions/checkout@v2
+      with:
+        persist-credentials: false
 
     - run: "npm i -g semantic-release@${{ inputs.version }} ${{ inputs.plugins }}"
       shell: bash
