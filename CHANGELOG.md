@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/joaofnds/semantic-release-action/compare/v1.0.1...v1.1.0) (2023-05-13)
+
+
+### Features
+
+* bump semantic release version ([7ca471a](https://github.com/joaofnds/semantic-release-action/commit/7ca471af9e68af315b6b32b816a6e09f7d3657ba))
+
 ## [1.0.1](https://github.com/joaofnds/semantic-release-action/compare/v1.0.0...v1.0.1) (2022-03-02)
 
 
