@@ -1,7 +1,7 @@
 ## Usage example
 
 will install [semantic-release](https://github.com/semantic-release/semantic-release) and
-the aditional specified plugins, clone your repo and run `npx semantic-release`
+the additional specified plugins, clone your repo, and run `npx semantic-release`
 
 ```yaml
 on: [push]
@@ -10,7 +10,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: joaofnds/semantic-release-action@v1.0.1
+      - uses: joaofnds/semantic-release-action@v1.1.0
         with:
           plugins: "@semantic-release/changelog @semantic-release/git"
         env:
@@ -21,5 +21,5 @@ jobs:
 
 | key     | default | description                  |
 | ------- | ------- | ---------------------------- |
-| version | 19.0.2  | semantic-release version     |
+| version | 21.0.2  | semantic-release version     |
 | plugins | ""      | aditional plugins to install |

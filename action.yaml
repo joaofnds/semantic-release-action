@@ -3,7 +3,7 @@ description: "Runs Semantic Release"
 
 inputs:
   version:
-    default: "19.0.2"
+    default: "21.0.2"
     description: "npm version of semantic-release to use"
   plugins:
     default: ""
