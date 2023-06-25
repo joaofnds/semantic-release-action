@@ -5,14 +5,11 @@ on:
     branches: [main]
     paths-ignore:
       - "README.md"
-      - "CHANGELOG.md"
 
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
       - uses: joaofnds/semantic-release-action@main
-        with:
-          plugins: "@semantic-release/changelog @semantic-release/git"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
