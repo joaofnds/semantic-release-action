@@ -10,7 +10,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: joaofnds/semantic-release-action@v1.1.0
+      - uses: joaofnds/semantic-release-action@v1.2.0
         with:
           plugins: "@semantic-release/changelog @semantic-release/git"
         env:
@@ -19,7 +19,7 @@ jobs:
 
 ## Inputs
 
-| key     | default | description                  |
-| ------- | ------- | ---------------------------- |
-| version | 21.0.2  | semantic-release version     |
-| plugins | ""      | aditional plugins to install |
+| key     | default | description                   |
+| ------- | ------- | ----------------------------- |
+| version | 23.0.2  | semantic-release version      |
+| plugins | ""      | additional plugins to install |
