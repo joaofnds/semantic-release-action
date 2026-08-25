@@ -3,7 +3,7 @@ description: "Runs Semantic Release"
 
 inputs:
   version:
-    default: "24.0.0"
+    default: "25.0.9"
     description: "npm version of semantic-release to use"
   plugins:
     default: ""
@@ -12,11 +12,11 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - uses: actions/setup-node@v4
+    - uses: actions/setup-node@v7
       with:
-        node-version: 20
+        node-version: 24
 
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v7
       with:
         persist-credentials: false
 
